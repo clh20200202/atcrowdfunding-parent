@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="atcrowdfunding-main:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc60af44-63f8-474d-a9a3-e1924e18ca46" name="Default Changelist" comment="众筹项目">
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TAdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TAdminRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TAdminRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TMenuExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TPermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TPermissionMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TPermissionMenuExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TRolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/bean/TRolePermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/util/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/util/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/src/main/java/com/atguigu/atcrowdfunding/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/atcrowdfunding-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TAdminRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TMenuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TMenuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TMenuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TMenuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionMenuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionMenuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionMenuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TPermissionMenuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRolePermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRolePermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRolePermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/bean/TRolePermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/util/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/util/Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/util/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/classes/com/atguigu/atcrowdfunding/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/java/com/atguigu/atcrowdfunding/listener/AppStartUpListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/resources/config/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/resources/spring/spring-beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/resources/spring/spring-tx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/admin/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/admin/assignRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/admin/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/common/css.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/common/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/common/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/error/error403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/menu/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/permission/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/role/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/jsp/unauth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product_detail_body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/product_detail_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/services-box1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/services-box2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/services-box3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/img/services-box4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/jquery/jquery-form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/jquery/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/script/back-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/script/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/script/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/static/ztree/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/META-INF/atcrowdfunding-main.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/atcrowdfunding/listener/AppStartUpListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/config/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-tx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/admin/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/admin/assignRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/admin/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/common/css.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/common/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/common/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/error/error403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/menu/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/permission/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/role/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/jsp/unauth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/atcrowdfunding-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/atcrowdfunding-manager-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-email-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/commons-math3-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/javax.mail-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.37.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product_detail_body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/product_detail_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/services-box1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/services-box2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/services-box3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/img/services-box4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/jquery/jquery-form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/jquery/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/script/back-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/script/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/script/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main-1.0-SNAPSHOT/static/ztree/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/META-INF/atcrowdfunding-main.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/com/atguigu/atcrowdfunding/listener/AppStartUpListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/config/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/spring/spring-beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/spring/spring-tx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/component/AppWebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/component/TSecurityAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/component/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/controller/DispatcherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/mapper/TAdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/mapper/TAdminRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/mapper/TMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/mapper/TPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/mapper/TPermissionMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/mapper/TRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/mapper/TRolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/java/com/atguigu/atcrowdfunding/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/mybatis/mapper/TAdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/mybatis/mapper/TAdminRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/mybatis/mapper/TMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/mybatis/mapper/TPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/mybatis/mapper/TPermissionMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/mybatis/mapper/TRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/src/main/resources/mybatis/mapper/TRolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/atcrowdfunding-manager-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/META-INF/atcrowdfunding-manager.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/controller/DispatcherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/controller/PermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/mapper/TAdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/mapper/TAdminRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/mapper/TMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/mapper/TPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/mapper/TPermissionMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/mapper/TRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/mapper/TRolePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/MenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/impl/MenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/com/atguigu/atcrowdfunding/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/mybatis/mapper/TAdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/mybatis/mapper/TAdminRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/mybatis/mapper/TMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/mybatis/mapper/TPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/mybatis/mapper/TPermissionMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/mybatis/mapper/TRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/classes/mybatis/mapper/TRolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-manager/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/atcrowdfunding_main_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\maven-08" />
+        <option name="mavenHome" value="D:/server/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\server\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gtNPHK5QP5Q2ZmucdyQHfmL0bz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.atguigu.atcrowdfunding.component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\class\java03\atcrowdfunding-parent\atcrowdfunding-main\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\class\java03\atcrowdfunding-parent\atcrowdfunding-manager\src\main\java\com\atguigu\atcrowdfunding\component" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="atcrowdfunding-main:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/atcrowdfunding_main" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_atcrowdfunding-parent_8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49612" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="atcrowdfunding-main:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc60af44-63f8-474d-a9a3-e1924e18ca46" name="Default Changelist" comment="" />
+      <created>1598929902170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598929902170</updated>
+      <workItem from="1598929903614" duration="2627000" />
+      <workItem from="1598954464048" duration="3013000" />
+      <workItem from="1598957950918" duration="8940000" />
+      <workItem from="1599006626476" duration="345000" />
+      <workItem from="1599120556469" duration="1259000" />
+      <workItem from="1599480615931" duration="1175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="众筹项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="众筹项目" />
+  </component>
+</project>
